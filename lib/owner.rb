@@ -84,6 +84,10 @@ class Owner
   end
  
   def list_pets
+    buy_dog
+    buy_cat
+    buy_fish
+    
     pets.map  do |pet| 
       pet.size 
     binding.pry
