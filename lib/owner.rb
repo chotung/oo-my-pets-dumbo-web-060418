@@ -84,11 +84,6 @@ class Owner
   end
 
   def list_pets
-    
-    # pets.map  do |pet, pet_arrays| 
-    #   pet_arrays.size 
-    # binding.pry
-    # end
       "I have #{pets[:fishes].count} fish, #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
   end
   
