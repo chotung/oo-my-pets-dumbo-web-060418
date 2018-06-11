@@ -84,10 +84,10 @@ class Owner
   end
  
   def list_pets
-    pets.each do |pet_type, pet_arrays|
-       pet_arrays
-     binding.pry
-    end.count
+    pets.map  do |pet| 
+      pet.size 
+    
+    end
       
   end
   
