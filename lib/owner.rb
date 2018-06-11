@@ -86,7 +86,7 @@ class Owner
   def list_pets
     pets.map  do |pet| 
       pet.size 
-    
+    binding.pry
     end
       
   end
