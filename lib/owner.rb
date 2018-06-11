@@ -82,14 +82,14 @@ class Owner
       # binding.pry
     end
   end
- 
-  def list_pets
+ binding.pry
+  # def list_pets
     
-    pets.map  do |pet| 
-      pet.size 
-    binding.pry
-    end
+  #   pets.map  do |pet| 
+  #     pet.size 
+  #   # binding.pry
+  #   end
       
-  end
+  # end
   
 end
