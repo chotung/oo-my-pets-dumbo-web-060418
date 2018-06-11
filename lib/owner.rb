@@ -89,7 +89,7 @@ class Owner
     #   pet_arrays.size 
     # binding.pry
     # end
-      
+      "I have "
   end
   
 end
