@@ -87,7 +87,7 @@ class Owner
     
     pets.map  do |pet, pet_arrays| 
       pet_arrays.size 
-    # binding.pry
+    binding.pry
     end
       
   end
