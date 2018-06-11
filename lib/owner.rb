@@ -88,7 +88,7 @@ class Owner
     # pets.map  do |pet| 
     #   pet.size 
     binding.pry
-    end
+    # end
       
   end
   
