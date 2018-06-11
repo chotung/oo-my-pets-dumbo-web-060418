@@ -82,13 +82,13 @@ class Owner
       # binding.pry
     end
   end
-  
+  binding.pry
   def list_pets
     pets.each do |pet_type, pet_arrays|
        pet_arrays
     
     end.count
-      binding.pry
+      
   end
   
 end
