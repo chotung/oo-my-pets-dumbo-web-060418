@@ -86,9 +86,9 @@ class Owner
   def list_pets
     pets.each do |pet_type, pet_arrays|
        pet_arrays
-    binding.pry
+    
     end.count
-      
+      binding.pry
   end
   
 end
